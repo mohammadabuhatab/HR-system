@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>HR system</h1>
+  </header>
+  <main>
+    <form id="form" action="">
+      <h2>Add Employee</h2><br>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" value=""><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email" value=""><br>
+      <label for="deparment">Deparment:</label><br>
+      <select name="deparment" id="deparment">
+        <option value="Call-Center">Call-Center</option>
+        <option value="Information-Technology">Information-Technology</option>
+        <option value="Human-Resources">Human-Resources</option>
+      </select><br><br>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+    <div id="tab">
+    <table id="table">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Deparment</th>
+        <th>Salray</th>
+      </tr> 
+     </table>
+    </div>
+    <!-- <div id="table"></div> -->
+  </main>
+  <footer>
+    <p>&copy;ASAC 201d19 team</p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
